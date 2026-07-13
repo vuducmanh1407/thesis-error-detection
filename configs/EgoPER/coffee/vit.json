@@ -1,0 +1,32 @@
+{
+    "naming": "EgoPER", 
+    "root_data_dir": "/home/user/Dataset/EgoPER", 
+    "dataset_name": "coffee", 
+    "v_feat_path": "frame_features_VL3-SigLIP-NaViT",
+    "label_path": "refined_label_v3",
+    "train_split": "training",
+    "val_split": "validation",
+    "test_split": "test",
+    "simple_error_path": "vc_chatgpt4omini_error_features",
+    "simple_error_filename": "chatgpt4omini_error",
+    "ckpt_dir": "ckpts",
+    "input_dim": 1152, 
+    "batch_size": 4, 
+    "learning_rate": 0.0002, 
+    "weight_decay": 0.0001, 
+    "num_epochs": 300, 
+    "log_freq": 5, 
+    "ignore_idx": -100,
+    "num_iterations": 100,
+    "background_weight": 2.0,
+    "drop_base": 0.3,
+    "node_drop_base": 0,
+    "temperature": 0.05,
+    "window_size": 30,
+    "smooth_feature": false,
+    "loss_weights": {
+        "seg_loss": 1.0,
+        "cl_loss": 0.2,
+        "var_loss": 0.2
+    }
+}

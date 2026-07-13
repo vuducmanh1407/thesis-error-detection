@@ -1,0 +1,8 @@
+output/
+.cache/
+.replik_paths.json
+.rp/
+./docker
+
+ckpts/
+runs/
