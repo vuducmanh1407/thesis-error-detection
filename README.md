@@ -18,4 +18,4 @@ The provided configuration file can be found in the ```configs``` folder.
 To evaluate, run
 ```bash
 python main.py --config {PATH/TO/CONFIGS.json} --dir {FOLDER_TO_EVALUATE} --eval --vis
-```.
+```
