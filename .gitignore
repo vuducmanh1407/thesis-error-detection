@@ -2,7 +2,7 @@ output/
 .cache/
 .replik_paths.json
 .rp/
-./docker
+.docker/
 
 ckpts/
 runs/

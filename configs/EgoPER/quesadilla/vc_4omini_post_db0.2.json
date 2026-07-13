@@ -17,7 +17,7 @@
     "num_epochs": 50, 
     "log_freq": 20, 
     "ignore_idx": -100,
-    "num_iterations": 5000,
+    "num_iterations": 2000,
     "background_weight": 1.0,
     "drop_base": 0.2,
     "temperature": 0.1,
