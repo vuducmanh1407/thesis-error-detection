@@ -4,8 +4,19 @@ This repository contains the implementation of the Master's Thesis. The code is 
 
 ## Installation
 
-Please install the dependencies provided in the ```requirements.txt``` file. For the datasets used, please refer to [GTG2Vid](https://github.com/robert80203/GTG2Vid). For the pre-extracted object features, please contact us at vuducmanh1407@gmail.com.
+Please install the dependencies provided in the ```requirements.txt``` file. 
 
+## Dataset
+
+For the datasets used, please refer to [GTG2Vid](https://github.com/robert80203/GTG2Vid).
+
+To obtain the pre-extracted object features, please copy the file ```extract_dinov3_features_{DATASET}.py``` to the main folder of the dataset used. Then you can extract features as:
+
+```bash
+python extract_dinov3_features_{DATASET}.py -d {TASK_NAME}  
+```
+
+where ```TASK_NAME``` is the activity to be extracted.
 
 ## Training and evaluation
 
