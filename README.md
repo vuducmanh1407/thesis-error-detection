@@ -1,10 +1,10 @@
 # Thesis: Improving Error Detection in Procedural Tasks using Interaction Awareness
 
-This repository contains the implementation of my Master's Thesis. The code is based on the implementation of [GTG2Vid](https://github.com/robert80203/GTG2Vid).
+This repository contains the implementation of the Master's Thesis. The code is based on the implementation of [GTG2Vid](https://github.com/robert80203/GTG2Vid).
 
 ## Installation
 
-Please install the dependencies provided in the ```requirements.txt``` file.
+Please install the dependencies provided in the ```requirements.txt``` file. For the datasets used, please refer to [GTG2Vid](https://github.com/robert80203/GTG2Vid). For the pre-extracted object features, please contact us at vuducmanh1407@gmail.com.
 
 
 ## Training and evaluation
